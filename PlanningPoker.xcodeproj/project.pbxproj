@@ -25,6 +25,14 @@
 		25086BEE2681333C00A205D3 /* VoteInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25086BED2681333C00A205D3 /* VoteInteractor.swift */; };
 		25086BF02681334C00A205D3 /* StoryInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25086BEF2681334C00A205D3 /* StoryInteractor.swift */; };
 		25086BF22681406E00A205D3 /* SprintPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25086BF12681406E00A205D3 /* SprintPresenter.swift */; };
+		25086BF4268142A300A205D3 /* StoryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25086BF3268142A300A205D3 /* StoryPresenter.swift */; };
+		25086BF6268142AE00A205D3 /* DeveloperPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25086BF5268142AE00A205D3 /* DeveloperPresenter.swift */; };
+		25086BF8268142B900A205D3 /* VotePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25086BF7268142B900A205D3 /* VotePresenter.swift */; };
+		25086BFC2681432A00A205D3 /* SprintTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25086BFA2681432A00A205D3 /* SprintTableViewCell.swift */; };
+		25086BFD2681432A00A205D3 /* SprintTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25086BFB2681432A00A205D3 /* SprintTableViewCell.xib */; };
+		25086C0326814BF900A205D3 /* UItableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25086C0226814BF900A205D3 /* UItableExtension.swift */; };
+		25086C0A26814D5F00A205D3 /* SprintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25086C0826814D5F00A205D3 /* SprintViewController.swift */; };
+		25086C0B26814D5F00A205D3 /* SprintViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25086C0926814D5F00A205D3 /* SprintViewController.xib */; };
 		4EC601198B08635368F3DB6D /* Pods_PlanningPoker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8692C867E69E3059B563DD43 /* Pods_PlanningPoker.framework */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +80,14 @@
 		25086BED2681333C00A205D3 /* VoteInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteInteractor.swift; sourceTree = "<group>"; };
 		25086BEF2681334C00A205D3 /* StoryInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryInteractor.swift; sourceTree = "<group>"; };
 		25086BF12681406E00A205D3 /* SprintPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintPresenter.swift; sourceTree = "<group>"; };
+		25086BF3268142A300A205D3 /* StoryPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPresenter.swift; sourceTree = "<group>"; };
+		25086BF5268142AE00A205D3 /* DeveloperPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperPresenter.swift; sourceTree = "<group>"; };
+		25086BF7268142B900A205D3 /* VotePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotePresenter.swift; sourceTree = "<group>"; };
+		25086BFA2681432A00A205D3 /* SprintTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintTableViewCell.swift; sourceTree = "<group>"; };
+		25086BFB2681432A00A205D3 /* SprintTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SprintTableViewCell.xib; sourceTree = "<group>"; };
+		25086C0226814BF900A205D3 /* UItableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UItableExtension.swift; sourceTree = "<group>"; };
+		25086C0826814D5F00A205D3 /* SprintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintViewController.swift; sourceTree = "<group>"; };
+		25086C0926814D5F00A205D3 /* SprintViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SprintViewController.xib; sourceTree = "<group>"; };
 		8692C867E69E3059B563DD43 /* Pods_PlanningPoker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlanningPoker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -135,6 +151,7 @@
 				25086BAC2681224F00A205D3 /* Assets.xcassets */,
 				25086BAE2681224F00A205D3 /* LaunchScreen.storyboard */,
 				25086BB12681224F00A205D3 /* Info.plist */,
+				25086C0226814BF900A205D3 /* UItableExtension.swift */,
 			);
 			path = PlanningPoker;
 			sourceTree = "<group>";
@@ -160,6 +177,7 @@
 		25086BD32681289300A205D3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				25086BF9268142F800A205D3 /* Sprint */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -179,6 +197,9 @@
 			isa = PBXGroup;
 			children = (
 				25086BF12681406E00A205D3 /* SprintPresenter.swift */,
+				25086BF3268142A300A205D3 /* StoryPresenter.swift */,
+				25086BF5268142AE00A205D3 /* DeveloperPresenter.swift */,
+				25086BF7268142B900A205D3 /* VotePresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -211,6 +232,33 @@
 				25086BE726812C2A00A205D3 /* StoryDAO.swift */,
 			);
 			path = DAO;
+			sourceTree = "<group>";
+		};
+		25086BF9268142F800A205D3 /* Sprint */ = {
+			isa = PBXGroup;
+			children = (
+				25086C0526814D2800A205D3 /* Controller */,
+				25086C0426814D1700A205D3 /* Cell */,
+			);
+			path = Sprint;
+			sourceTree = "<group>";
+		};
+		25086C0426814D1700A205D3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				25086BFA2681432A00A205D3 /* SprintTableViewCell.swift */,
+				25086BFB2681432A00A205D3 /* SprintTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		25086C0526814D2800A205D3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				25086C0826814D5F00A205D3 /* SprintViewController.swift */,
+				25086C0926814D5F00A205D3 /* SprintViewController.xib */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		B935882052656EDFE0CA2847 /* Frameworks */ = {
@@ -335,7 +383,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25086C0B26814D5F00A205D3 /* SprintViewController.xib in Resources */,
 				25086BB02681224F00A205D3 /* LaunchScreen.storyboard in Resources */,
+				25086BFD2681432A00A205D3 /* SprintTableViewCell.xib in Resources */,
 				25086BAD2681224F00A205D3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,11 +454,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				25086BD92681296A00A205D3 /* Developer.swift in Sources */,
+				25086BF6268142AE00A205D3 /* DeveloperPresenter.swift in Sources */,
 				25086BDB268129E100A205D3 /* Vote.swift in Sources */,
 				25086BF22681406E00A205D3 /* SprintPresenter.swift in Sources */,
 				25086BE626812BEB00A205D3 /* VoteDAO.swift in Sources */,
 				25086BE426812BB600A205D3 /* DeveloperDAO.swift in Sources */,
+				25086BF4268142A300A205D3 /* StoryPresenter.swift in Sources */,
 				25086BEE2681333C00A205D3 /* VoteInteractor.swift in Sources */,
+				25086C0A26814D5F00A205D3 /* SprintViewController.swift in Sources */,
 				25086BEA2681331D00A205D3 /* SprintInteractor.swift in Sources */,
 				25086BE226812BAA00A205D3 /* SprintDAO.swift in Sources */,
 				25086BE826812C2A00A205D3 /* StoryDAO.swift in Sources */,
@@ -416,7 +469,10 @@
 				25086BA42681224E00A205D3 /* AppDelegate.swift in Sources */,
 				25086BF02681334C00A205D3 /* StoryInteractor.swift in Sources */,
 				25086BDD268129F700A205D3 /* Sprint.swift in Sources */,
+				25086C0326814BF900A205D3 /* UItableExtension.swift in Sources */,
+				25086BFC2681432A00A205D3 /* SprintTableViewCell.swift in Sources */,
 				25086BDF26812AA800A205D3 /* Story.swift in Sources */,
+				25086BF8268142B900A205D3 /* VotePresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
