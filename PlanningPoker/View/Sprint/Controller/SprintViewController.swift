@@ -81,6 +81,9 @@ class SprintViewController: UIViewController {
     }
 }
 
+extension SprintViewController: SprintView {
+}
+
 extension SprintViewController: UITableViewDelegate, UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1

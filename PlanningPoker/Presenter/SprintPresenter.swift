@@ -22,7 +22,7 @@ class SprintPresenter {
     var interactorOutput: SprintInteractorOutput?
     
     var interactor: SprintInteractor?
-    var view: SprintPresenter?
+    var view: SprintView?
     
     private(set) var sprints = BehaviorRelay<[Sprint]?>(value: nil)
     private(set) var sprint = BehaviorRelay<Sprint?>(value: nil)

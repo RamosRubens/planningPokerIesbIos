@@ -33,6 +33,9 @@
 		25086C0326814BF900A205D3 /* UItableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25086C0226814BF900A205D3 /* UItableExtension.swift */; };
 		25086C0A26814D5F00A205D3 /* SprintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25086C0826814D5F00A205D3 /* SprintViewController.swift */; };
 		25086C0B26814D5F00A205D3 /* SprintViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25086C0926814D5F00A205D3 /* SprintViewController.xib */; };
+		25086C0D2681559500A205D3 /* SprintRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25086C0C2681559500A205D3 /* SprintRouter.swift */; };
+		25086C0F268155B400A205D3 /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25086C0E268155B400A205D3 /* BaseRouter.swift */; };
+		25086C11268155C800A205D3 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25086C10268155C800A205D3 /* Coordinator.swift */; };
 		4EC601198B08635368F3DB6D /* Pods_PlanningPoker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8692C867E69E3059B563DD43 /* Pods_PlanningPoker.framework */; };
 /* End PBXBuildFile section */
 
@@ -88,6 +91,9 @@
 		25086C0226814BF900A205D3 /* UItableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UItableExtension.swift; sourceTree = "<group>"; };
 		25086C0826814D5F00A205D3 /* SprintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintViewController.swift; sourceTree = "<group>"; };
 		25086C0926814D5F00A205D3 /* SprintViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SprintViewController.xib; sourceTree = "<group>"; };
+		25086C0C2681559500A205D3 /* SprintRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintRouter.swift; sourceTree = "<group>"; };
+		25086C0E268155B400A205D3 /* BaseRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
+		25086C10268155C800A205D3 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		8692C867E69E3059B563DD43 /* Pods_PlanningPoker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlanningPoker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -219,6 +225,9 @@
 		25086BD7268128BD00A205D3 /* Router */ = {
 			isa = PBXGroup;
 			children = (
+				25086C0C2681559500A205D3 /* SprintRouter.swift */,
+				25086C0E268155B400A205D3 /* BaseRouter.swift */,
+				25086C10268155C800A205D3 /* Coordinator.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -457,8 +466,10 @@
 				25086BF6268142AE00A205D3 /* DeveloperPresenter.swift in Sources */,
 				25086BDB268129E100A205D3 /* Vote.swift in Sources */,
 				25086BF22681406E00A205D3 /* SprintPresenter.swift in Sources */,
+				25086C0D2681559500A205D3 /* SprintRouter.swift in Sources */,
 				25086BE626812BEB00A205D3 /* VoteDAO.swift in Sources */,
 				25086BE426812BB600A205D3 /* DeveloperDAO.swift in Sources */,
+				25086C0F268155B400A205D3 /* BaseRouter.swift in Sources */,
 				25086BF4268142A300A205D3 /* StoryPresenter.swift in Sources */,
 				25086BEE2681333C00A205D3 /* VoteInteractor.swift in Sources */,
 				25086C0A26814D5F00A205D3 /* SprintViewController.swift in Sources */,
@@ -468,6 +479,7 @@
 				25086BEC2681332E00A205D3 /* DeveloperInteractor.swift in Sources */,
 				25086BA42681224E00A205D3 /* AppDelegate.swift in Sources */,
 				25086BF02681334C00A205D3 /* StoryInteractor.swift in Sources */,
+				25086C11268155C800A205D3 /* Coordinator.swift in Sources */,
 				25086BDD268129F700A205D3 /* Sprint.swift in Sources */,
 				25086C0326814BF900A205D3 /* UItableExtension.swift in Sources */,
 				25086BFC2681432A00A205D3 /* SprintTableViewCell.swift in Sources */,
